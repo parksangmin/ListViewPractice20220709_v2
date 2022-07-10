@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 //     Data를 담을 ArrayList 변수 생성
 
     val mRoomList = ArrayList<RoomData>()
+
 //  어댑터를 담고 있을 멤버변수 생성
     lateinit var mRoomAdapter : RoomListAdapter
 

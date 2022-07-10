@@ -10,7 +10,7 @@ class RoomData(
 ) {
 
     fun getFormattedPrice() : String {
-        val formatter = DecimalFormat("#, ###")
+        val formatter = DecimalFormat("#,###")
 
         var resultPrice = ""
 
